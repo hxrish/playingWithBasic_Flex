@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    border: 1px solid rgb(137, 137, 192);
+    padding: 10px;
+    background-color: blue;
+    border-radius: 13%;
+    color: white;
+    font-family: sans-serif;
+}
